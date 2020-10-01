@@ -38,8 +38,8 @@ app.Animation = (function () {
 	function start() {
 
 
-		tl.to(frame, .5, {y:"-=180", ease:Sine.easeInOut}, "+=1")
-		.to(curtain, .5, {autoAlpha:0}, "-=.5");
+		// tl.to(frame, .5, {y:"-=180", ease:Sine.easeInOut}, "+=1")
+		// .to(curtain, .5, {autoAlpha:0}, "-=.5");
 	
 		
 	}

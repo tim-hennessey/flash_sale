@@ -1,0 +1,54 @@
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #555;
+}
+
+.default {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#border {
+    display: block;
+    width: $banner-width;
+    height: $banner-height;
+    pointer-events: none;
+    outline: solid 1px #ccc;
+    outline-offset: -1px;
+    z-index: 999;
+}
+
+#banner {
+    background: #000;
+    overflow: hidden;
+    width: $banner-width;
+    height: $banner-height;
+    opacity: 0;
+
+    #frame {
+        top: 220px;
+        width: $banner-width;
+        height: $banner-height;
+    
+
+
+    #curtain {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 1);
+        width: $banner-width;
+        height: 490px;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+    #button-exit {
+        background-color: rgba(255, 255, 255, 0);
+        cursor: pointer;
+        height: 100%;
+        width: 100%;
+    }
+
+}
