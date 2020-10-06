@@ -41,7 +41,7 @@ app.Animation = (function () {
 		tl.to(frame, .5, {y:"-=65", ease:Sine.easeInOut}, "+=1")
 		.to(curtain, .5, {autoAlpha:0}, "-=.5")
 		.to(".txt", .15, {fill: "rgb(255,255,255)"}, "+=1")
-		.to(".txt", .15, {fill: "rgb(219,58,38)"}, "+=.5");;
+		.to(".txt", .15, {fill: "rgb(219,58,38)"}, "+=.5");
 	
 		
 	}
